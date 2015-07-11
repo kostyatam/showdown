@@ -35,8 +35,6 @@ showdown.subParser('images', function (text, options, globals) {
           width = gDims[linkId].width;
           height = gDims[linkId].height;
         }
-      } else {
-        return wholeMatch;
       }
     }
 
