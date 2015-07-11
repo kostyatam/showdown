@@ -1,4 +1,4 @@
-;/*! showdown 06-07-2015 */
+;/*! showdown 11-07-2015 */
 (function(){
 /**
  * Created by Tivie on 06-01-2015.
@@ -1559,8 +1559,6 @@ showdown.subParser('images', function (text, options, globals) {
           width = gDims[linkId].width;
           height = gDims[linkId].height;
         }
-      } else {
-        return wholeMatch;
       }
     }
 
